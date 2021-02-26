@@ -1,0 +1,44 @@
+.questions {
+  margin-top: 180px;
+}
+
+.questText {
+  vertical-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  background: #D4C17F;
+  border: none;
+  max-width: 280px;
+  padding: 12px 55px;
+  font-size: 16px;
+  font-family: Raleway;
+}
+
+.form__input {
+  vertical-align: center;
+  margin-bottom: 10px;
+}
+
+.input {
+  text-align: center;
+  max-width: 255px;
+  border: none;
+  color: #ffffff;
+  background-color: #BEBEBE;
+  font-size: 16px;
+  padding: 12px 50px;
+  font-family: Raleway;
+  opacity: 0.9;
+}
+
+.quest-form {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
