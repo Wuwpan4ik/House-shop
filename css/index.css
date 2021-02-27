@@ -82,9 +82,14 @@ body.active {
 
 .video__container {
   position: relative;
+  cursor: pointer;
   top: 0;
   left: 0;
   content: '';
+  background: url(/img/video.png) no-repeat;
+  background-size: cover;
+  height: 800px;
+  opacity: 0.5;
 }
 
 .video__play {
@@ -224,4 +229,37 @@ body.active {
   .main__item__name {
     font-size: 12px;
   }
+}
+
+li > a:hover {
+  color: #6AABB5;
+}
+
+.header__title:hover > * > * {
+  color: #6AABB5;
+}
+
+a:hover > i {
+  color: #6AABB5;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background: #D4C15F;
+}
+
+input:hover {
+  background-color: #808080;
+  cursor: pointer;
+  color: black;
+}
+
+.main__item {
+  cursor: pointer;
+}
+
+.video__container:hover {
+  opacity: 1;
 }
