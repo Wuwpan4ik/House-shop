@@ -63,7 +63,3 @@
     max-width: 1110px;
   }
 }
-@font-face {
-  font-family: 'Raleway'; /* Задаем имя кастомного шрифта */
-  font-display: fallback; /* Задаем поведение браузера на время загрузки */
-}
