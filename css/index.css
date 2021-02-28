@@ -86,7 +86,7 @@ body.active {
   top: 0;
   left: 0;
   content: '';
-  background: url(/img/video.webp) no-repeat;
+  background: url(../img/video.webp) no-repeat;
   background-size: cover;
   height: 800px;
   opacity: 0.5;
