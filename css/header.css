@@ -192,3 +192,6 @@
     font-size: 40px;
   }
 }
+  .header__mob__nav {
+    padding-left: 0px;
+}
